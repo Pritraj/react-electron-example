@@ -32,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm run electron-buil
+          npm run electron-build
 
 # Failing beacuse virtual framebuffer not installed
 #          yarn build-e2e
